@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -216,7 +217,7 @@ footer .container {
   align-items: flex-end;
 }
 
-@media (min-width: 720) {
+@media (min-width: 720px) {
   header {
     position: fixed;
     width: 100%;
@@ -234,7 +235,7 @@ footer .container {
   }
 
   #hero h1 {
-    font-size: 5em;
+    font-size: 2.5em;
   }
 
   #somos-proya .container {
@@ -261,7 +262,7 @@ footer .container {
     background-size: cover;
     background-position: center center;
     height: 500px;
-    width: 400px;
+    width: 400%;
   }
 
   #nuestros-programas .programas {
@@ -269,7 +270,7 @@ footer .container {
     justify-content: center;
   }
 
-  #nuestros-programa p {
+  #nuestros-programas p {
     display: block;
     margin-bottom: 30px;
   }
@@ -278,11 +279,11 @@ footer .container {
     font-size: 4em;
   }
 
-  #nuestro-programa h3 {
+  #nuestros-programas h3 {
     margin-top: 0;
   }
 
-  #nuestros-programa .carta {
+  #nuestros-programas .carta {
     padding: 50px;
     background-size: 100% 150px;
     background-repeat: no-repeat;
